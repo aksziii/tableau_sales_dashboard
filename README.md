@@ -20,8 +20,15 @@ The raw data was cleaned and transformed using Python in Google Colab (Jupyter N
 - **Extract**: Extracted relevant parts of data fields.
 - **Append**: Appended `fact_sales.csv` and `fact_sales_2024.csv` as they had different layout.
 - **Saving the output as an xlsx file**: Appended `fact_sales.csv` and `fact_sales_2024.csv` as they had different layout and saved as `fact_sales_total.xlsx`.
-
 You can find the data cleaning and transformation steps in the notebook located in the `notebooks/` directory.
+
+## Tableau Dashboard Features
+The Tableau dashboards in this project include the following advanced features:
+- **Logical Layer**: Use of relationships to connect multiple tables in the data source.
+- **Level of Detail Expressions**: `EXCLUDE` LOD expressions to provide detailed insights while excluding specific dimensions.
+- **Calculated Fields**: Custom calculations to derive additional metrics and insights from the data.
+- **Parameter Control**: Date parameter control to allow dynamic selection of date ranges.
+- **Filter Actions**: Interactive filter actions to allow users to drill down into data by clicking on specific elements of the visualizations.
 
 ## Tableau - Getting Started
 1. Open the `aksziii_sales_data_prep.ipynb` notebook in Google Colab and run the steps to clean and transform the data.
